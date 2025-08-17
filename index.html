@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="">
 
 <head>
-<title>Happy Birthday v9</title>
+<title>Happy Birthday</title>
 </head>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Itim&display=swap');
@@ -129,7 +129,7 @@ blockquote p:not(#kalimat, #teksnim){display:none;}
      <div><div id='pergeseran'>
          
         <p><b><img src="./assets/pusn3.gif"/><br>
-            <span>Hello, <span id="namaKamu"></span> 🫢❤️</span>
+            <span>Hello, <span id="namaKamu"></span> 🫢</span>
         </b></p>
         
         <p><b><img src="./assets/bunga2.gif"/><br>
@@ -158,7 +158,7 @@ blockquote p:not(#kalimat, #teksnim){display:none;}
      </div>
      <div><blockquote id='bq'>
        <p id="teksnim">Wish You All The Best! 🥳</p>
-       <p id="kalimat"><b>Happy birthday</b>! 💖 Wishing you a long life and always stay sweet. The world can be tiring sometimes, but you must keep your spirit up! 🫶<br><br>If the world feels unfair, you can come to me. Maybe I can't fix everything, but I'll always try to make you feel<br>better 💫<br><br>Once again,<br><span class="ft">Happy Birthday! 🫰💐</span></p>
+       <p id="kalimat"><b>Happy birthday</b>! Wishing you a long life and always stay sweet. The world can be tiring sometimes, but you must keep your spirit up! 🫶<br><br>Your most requested one. You are just like a pole. Strong and tall but too far. We are connected by strings. Fragile and diminishablem If I pull too hard. It breaks off. May be I can't fix everything, but I'll always try to make you feel<br>better 💫<br><br>Once again,<br><span class="ft">Happy Birthday! 🫰💐</span></p>
      </blockquote></div>
      
    </div>
@@ -208,7 +208,7 @@ totalPesan = totalSlide;
     Content.style = "opacity:1;margin-top:9vh";
     
     var { value: nama } = await swals.fire({
-           title: 'Enter Your Name 🫣🩷', input: 'text',
+           title: 'HAPPY BIRTHDAY NOYAL...', input: '',
        });
        if(nama && nama.length < 11){
          window.nama = nama;
@@ -297,19 +297,19 @@ document.addEventListener('click', function() {
   tomnegatif = "No";
   async function aksibalas(){
     var { isConfirmed: prtanya } = await swals.fire({
-      title: 'Do you want a gift? 🤭❤️',
+      title: 'Do you want a gift? 🤭',
       imageUrl: '' + fotostikerPopup.src, showCancelButton: true, confirmButtonText: '' + tompositif, cancelButtonText: '' + tomnegatif, cancelButtonColor: '#FF0000',});
     if(prtanya){
        await swals.fire({
          title: 'Just kidding! 🤣', 
-         html: 'No gift for you 😜❤️', 
+         html: 'No gift for you 😜', 
          imageUrl: '' + fotostikerPopupCon.src,
        });
        poinjwb=1;
     } else {
          await swals.fire({
          title: 'Aww!', 
-         html: "Alright if you don't want it 😜❤️", 
+         html: "Alright if you don't want it 😜", 
          imageUrl: '' + fotostikerPopupCan.src,
        });
        poinjwb=2;
